@@ -1,0 +1,44 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(248, 154, 238);
+    margin: 60;
+    padding: 50;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 20vh;
+}
+/*Estilo para o contêiner principal*/
+.container{
+    display: flex; /*Define o contêiner como um flexbox*/
+    gap: 20px; /*Espaçamento entre os cards*/
+    flex-wrap:wrap; /*Permite que os cards quebrem linha se necessario*/
+}
+
+/*Estilo para cada card*/
+.card{
+    background-color: rgb(206, 124, 157);
+    border: 1px solid; #ddd
+    border-radius: 8px; /*Arredonda os cantos dos cards*/
+    padding: 20px;
+    box-shadow: 10 2px 5px rgba(0, 0, 0, 0,1); /*Adiciona uma sombra para dar efeito de elevação*/
+    flex: center; /*Permite que os cards cresçam igualmente*/
+    max-width: 200px; /*Define uma largura maxima para os cards*/
+}
+
+    /*Estilo para o titulo dos cards*/
+    .card h2{
+        margin-top: 10;
+        font-size: 1.5em;
+        color: #85055a
+    
+    }
+
+    /*Estilo par ao parágrafo dos cards*/
+    .card p{
+        color: #461e3a;
+    }
+    .card img{
+width: 100%;
+    }
+
